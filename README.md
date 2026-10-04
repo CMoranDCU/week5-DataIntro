@@ -1,12 +1,23 @@
-# Session X — Course Y
+# Session 5 — Intro to Data Course
 
-This repository contains the materials for **Session X** of *Course Y*.  
+This repository contains the materials for **Session 5** of *Intro to Data Course*.  
 - Slides: see [`slides/`](./slides/) folder  
 - Notebooks: see [`notebooks/`](./notebooks/) folder 
 ---
 
 ## 📑 Session Outline
 
+This session introduces **regression**, a type of supervised machine learning used to predict a numerical value. We will see how a model learns a relationship between input features and a target, then use it to make predictions for new observations.
+
+The notebook uses a small synthetic house-price dataset. Each example describes a house by its floor area, number of bedrooms, distance from the city centre, and age; the target is its price. Since the data are generated for teaching, we also know the underlying price formula and can compare it with what the model learns.
+
+We will use this example to:
+- distinguish features from the target and explore their relationship;
+- train a linear regression model and interpret its predictions and coefficients;
+- understand residuals and how least squares chooses model parameters;
+- assess predictions with MAE, MSE, RMSE, and R²;
+- compare a one-feature model with a multiple regression model; and
+- explore how model complexity and irrelevant features can lead to underfitting or overfitting.
 
 ---
 ## 🚀 Environment Setup

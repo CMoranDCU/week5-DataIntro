@@ -1,5 +1,6 @@
 # Ignore data folder and heavy pptx files
 data/*
+!data/house_prices.csv
 slides/*.pptx
 
 # Byte-compiled / optimized / DLL files
